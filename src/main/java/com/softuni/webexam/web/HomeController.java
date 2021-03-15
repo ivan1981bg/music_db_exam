@@ -23,7 +23,7 @@ public class HomeController {
         if (httpSession.getAttribute("user") == null) {
             return "index";
 
-            
+            /
         }
 
         model.addAttribute("albums", albumService.getAllAlbums());
